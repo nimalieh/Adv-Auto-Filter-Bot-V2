@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = මෙන්න ඔයා ඉල්ලපු {file_name} මෝවි එක 👇,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'JOIN OUR Ⓜ️OVIE GROUP ', url="https://t.me/baiscopelinks"
                                 )
                         ]
                     ]
@@ -47,13 +47,13 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('⭕අපෙ මෝවි ගෘප් එකට ජොයින් වෙන්න⭕', url='https://t.me/baiscopelinks'),
+        InlineKeyboardButton('devolop by', url ='https://t.me/Menukanimsadu')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
-    ]]
+     
+
+
+
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
